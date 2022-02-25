@@ -12,12 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Health_PredictorApp">
         <activity
-            android:name=".liver"
-            android:exported="false" />
-        <activity
-            android:name=".breastCancer"
-            android:exported="false" />
-        <activity
             android:name=".diabetes"
             android:exported="false" />
         <activity
