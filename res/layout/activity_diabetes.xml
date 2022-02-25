@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".diabetes">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#C0E6E4"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diabetes Predictor"
+            android:textSize="50dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/courgette"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fill your details below :"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/courgette"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Pregnancies"
+            android:textSize="24sp"
+            android:layout_marginTop="50dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:id="@+id/preg"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Glucose"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:id="@+id/glucose"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Blood Pressure"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:id="@+id/BP"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Skin Thickness"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:id="@+id/SkThick"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Insulin"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:id="@+id/insulin"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter BMI"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:id="@+id/bmi"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter DiabetesPedigreeFunction"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:id="@+id/dpf"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Age"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:id="@+id/age"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Predict"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="130dp"
+            android:fontFamily="@font/courgette"
+            android:backgroundTint="#bde7e5"
+            android:id="@+id/predict"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/result"/>
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="130dp"
+            android:fontFamily="@font/courgette"
+            android:backgroundTint="#bde7e5"
+            android:id="@+id/back"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
